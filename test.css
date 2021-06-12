@@ -611,6 +611,15 @@ nav {
   }
 
   @-webkit-keyframes animate {
+    from {
+      opacity: 2;
+      content: " a Software Engineer";
+    }
+    to {
+      opacity: 2;
+
+      content: " a Data Analysis";
+    }
     0% {
       opacity: 2;
       content: " a Software Engineer";
