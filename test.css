@@ -160,35 +160,55 @@ nav {
   0% {
     opacity: 2;
     -webkit-opacity: 2;
+    filter: alpha(opacity=2);
+    -moz-opacity: 2;
+    -khtml-opacity: 2;
     content: " a Software Engineer";
   }
   20% {
     opacity: 0;
     -webkit-opacity: 2;
+    filter: alpha(opacity=2);
+    -moz-opacity: 2;
+    -khtml-opacity: 2;
   }
   50% {
     opacity: 2;
     -webkit-opacity: 2;
+    filter: alpha(opacity=2);
+    -moz-opacity: 2;
+    -khtml-opacity: 2;
 
     content: " a Data Analysis";
   }
   65% {
     opacity: 0;
     -webkit-opacity: 2;
+    filter: alpha(opacity=2);
+    -moz-opacity: 2;
+    -khtml-opacity: 2;
   }
   80% {
     opacity: 2;
     -webkit-opacity: 2;
-
+    filter: alpha(opacity=2);
+    -moz-opacity: 2;
+    -khtml-opacity: 2;
     content: " an IT Project Manager";
   }
   90% {
     opacity: 0;
     -webkit-opacity: 2;
+    filter: alpha(opacity=2);
+    -moz-opacity: 2;
+    -khtml-opacity: 2;
   }
   100% {
     opacity: 2;
     -webkit-opacity: 2;
+    filter: alpha(opacity=2);
+    -moz-opacity: 2;
+    -khtml-opacity: 2;
   }
 }
 
