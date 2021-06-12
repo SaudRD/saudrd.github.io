@@ -695,7 +695,7 @@ nav {
   .section2 .Services {
     padding-bottom: 50px;
     width: 100%;
-    font-size: clamp(0.5rem, 10vw, 3rem);
+    font-size: clamp(0.3rem, 5vw, 2rem);
   }
   .section2 .container {
     flex-direction: column;
