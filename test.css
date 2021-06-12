@@ -154,6 +154,7 @@ nav {
   color: aliceblue;
   font-size: 0.8em;
   animation: animate 10s linear infinite;
+  -webkit-animation: animate 10s linear infinite;
 }
 @keyframes animate {
   0% {
@@ -598,7 +599,7 @@ nav {
 @media screen and (max-width: 950px) {
   @-webkit-keyframes animate {
     0% {
-      opacity: 2;
+      -webkit-opacity: 2;
       content: " a Software Engineer";
     }
     20% {
