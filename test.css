@@ -689,7 +689,7 @@ nav {
   }
   .section3 {
     width: 102%;
-    height: 120vh;
+    height: 150vh;
     background-color: #f9f9ff;
   }
   .section2 .Services {
@@ -734,6 +734,7 @@ nav {
     flex-direction: column-reverse;
     width: 100%;
     margin: 0 auto;
+    height: 100vh;
   }
   .section3 .container .card1 {
     width: 90%;
@@ -757,7 +758,7 @@ nav {
   }
   .section4 {
     width: 102%;
-    height: 170vh;
+    height: 180vh;
     background-color: #f9f9ff;
   }
   .section5 {
