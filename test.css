@@ -507,7 +507,7 @@ nav {
 .section5 .Services {
   background-color: #f9f9ff;
   text-transform: uppercase;
-  font-size: clamp(0.5rem, 10vw, 3rem);
+  font-size: clamp(0.3rem, 10vw, 2rem);
   letter-spacing: 0.2rem;
   text-align: center;
   position: relative;
