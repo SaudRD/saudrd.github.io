@@ -155,7 +155,7 @@ nav {
   font-size: 0.8em;
   animation: animate 10s linear infinite;
 }
-@-webkit-keyframes animate {
+@keyframes animate {
   0% {
     opacity: 2;
     content: " a Software Engineer";
@@ -596,6 +596,32 @@ nav {
 }
 
 @media screen and (max-width: 950px) {
+  @-webkit-keyframes animate {
+    0% {
+      opacity: 2;
+      content: " a Software Engineer";
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 2;
+      content: " a Data Analysis";
+    }
+    65% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 2;
+      content: " an IT Project Manager";
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 2;
+    }
+  }
   .h1 {
     width: 30px;
     height: 3px;
