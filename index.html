@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recap of All i missed</title>
+    <meta name="description" content="This is a recap for all my knewldge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="test.css" />
+    <script
+      src="https://kit.fontawesome.com/3e33c74016.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="hamburger">
+        <div class="h1"></div>
+        <div class="h1"></div>
+        <div class="h1"></div>
+      </div>
+      <div class="yourimage"></div>
+
+      <ul class="nav-links">
+        <li><a href="#sc1">About me</a></li>
+        <li><a href="#sc2">Services</a></li>
+        <li><a href="#sc3">Experience</a></li>
+        <li><a href="#sc4">Projects</a></li>
+        <li><a href="#sc5">Contact Me</a></li>
+      </ul>
+    </nav>
+    <section class="section1" id="sc1">
+      
+      <video id="videoBG"  autoplay muted loop>
+        <source src="img/WhatsApp Video 2021-06-12 at 2.15.40 AM.mp4" type="video/mp4">
+      </video>
+      
+      <div class="container">
+
+        <div class="card">
+          <div class="star" id="particles-js"></div>
+
+          <h2>SaudAlmutairi</h2>
+          <p class="p1">I'm<span class="spa"></span></p>
+        </div>
+        <div class="btn-section">
+          <a href="#sc5">Hire Me</a>
+          <a class="res" href="#">Resume</a>
+        </div>
+      </div>
+    </section>
+    <section class="section2" id="sc2">
+      <div class="Services">Services</div>
+
+      <div class="container">
+        <div class="card">
+          <img
+            class="img1"
+            src="/img/356-3562439_codeforcodes-learn-to-code-icon.png"
+          />
+
+          <h2>Web Development</h2>
+          <p>
+            Website developer with latest programming languages Html, CSS, PHP,
+            JS and WordPress. developer of many sites such as management
+            sites,online stores, and sites with different features
+          </p>
+        </div>
+        <div class="card">
+          <img class="img1" src="/img/5x5x5x5x5x.png" />
+
+          <h2>Data Analysis</h2>
+          <p>
+            I use Python or Microsoft Power BI to extract, classify and display
+            data with graphs, informational reports, and analytical studies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section3" id="sc3">
+      <div class="Services">Experience</div>
+
+      <div class="container">
+        <span class="line"></span>
+
+        <div class="card card1">
+          <span class="date">2020</span>
+          <h2>Bachelor’s Degree in Software Engineering</h2>
+          <p>
+            Bachelor’s Degree in Software Engineering from college of technology
+            in Buraidah, with GPA of 4.97/5.
+          </p>
+          <span class="date">2015</span>
+          <h2>High Diploma in Computer Progtramming</h2>
+          <p>
+            High Diploma in Computer Progtramming from college of technology in
+            Medina, with GPA of 4.97/5.
+          </p>
+        </div>
+        <div class="card card2">
+          <span class="date">2020</span>
+          <h2>Saudi Aramco (Internship)</h2>
+          <p>
+            learned information security and data analysis, also got a
+            recommendation for information security specialist.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section4" id="sc4">
+      <div class="Services">Projects</div>
+
+      <div class="container">
+        <div class="all-items">
+          <div class="item">
+            <div class="left">
+              <div class="imgLeft">
+                <img src="img/project1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="right">
+              <div class="title">Jobs Email Sender</div>
+              <div class="lang">Python | Twitter API</div>
+              <div class="desc">
+                A twitter bot who check if there is any IT jobs from a particular user and autmatically send you an Email of the job.
+              </div>
+              <div class="btn-section">
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:6767094149096226816/"
+                  target="_blank"
+                  >Preview</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more">
+        <div class="card">
+        <div class="title">For more Projects</div>
+        <ul>
+          <a href="https://www.linkedin.com/in/saudalardi/" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://github.com/SaudRD" target="_blank"
+            ><i class="fab fa-linkedin"></i></a>
+          </a>
+        </ul>
+      </div>
+        </div>
+    </section>
+    <section class="section5" id="sc5">
+      <div class="Services">Get In Touch</div>
+
+      <div class="container">
+        <div class="card">
+          <h2>Let's talk about business</h2>
+          <p>Don't like formds? Send me an <a href="mailto:saudalardi@outlook.sa">email</a>.👋</p>
+          <a href="mailto:saudalardi@saudalardi.sa">saudalardi@outlook.sa</a>
+        </div>
+
+      </div>
+    </section>
+    <section class="section6" id="sc6">
+      <div class="Services"> Made By © <span class="eng" style="float: right;"> Eng.Saud Al Mutairi </span></div>
+
+    </section>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navlinks = document.querySelector(".nav-links");
+      const links = document.querySelectorAll(".nav-links li a");
+
+      hamburger.addEventListener("click", () => {
+        navlinks.classList.toggle("open");
+      });
+      navlinks.addEventListener("click", () => {
+        navlinks.classList.remove("open");
+      });
+    </script>
+    <script type="text/javascript" src="particles.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>
