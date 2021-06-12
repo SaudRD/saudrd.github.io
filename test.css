@@ -155,6 +155,12 @@ nav {
   font-size: 0.8em;
   animation: animate 10s linear infinite;
   -webkit-animation: animate 10s linear infinite;
+  -khml-animation: animate 10s linear infinite;
+  opacity: 2;
+  -webkit-opacity: 2;
+  filter: alpha(opacity=2);
+  -moz-opacity: 2;
+  -khtml-opacity: 2;
 }
 @keyframes animate {
   0% {
