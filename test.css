@@ -155,7 +155,7 @@ nav {
   font-size: 0.8em;
   animation: animate 10s linear infinite;
 }
-@keyframes animate {
+@-webkit-keyframes animate {
   0% {
     opacity: 2;
     content: " a Software Engineer";
