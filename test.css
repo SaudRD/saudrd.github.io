@@ -722,14 +722,14 @@ nav {
   }
 
   .section3 .Services {
-    font-size: clamp(0.5rem, 10vw, 3rem);
+    font-size: 2rem;
     padding-bottom: 5rem;
   }
   .section4 .Services {
-    font-size: clamp(0.5rem, 10vw, 3rem);
+    font-size: 2rem;
   }
   .section5 .Services {
-    font-size: clamp(0.5rem, 10vw, 3rem);
+    font-size: 2rem;
   }
   .section5 .container {
     flex-direction: column-reverse;
