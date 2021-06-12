@@ -606,20 +606,16 @@ nav {
     color: aliceblue;
     font-size: 0.8em;
     animation: animate 10s linear infinite;
-    -webkit-animation: animate 10s linear infinite;
+    -webkit-animation: animate 10s linear forwards;
     opacity: 2;
   }
 
   @-webkit-keyframes animate {
     from {
-      opacity: 2;
+      opacity: 5;
       content: " a Software Engineer";
     }
-    to {
-      opacity: 2;
 
-      content: " a Data Analysis";
-    }
     0% {
       opacity: 2;
       content: " a Software Engineer";
@@ -637,7 +633,7 @@ nav {
     }
     80% {
       opacity: 2;
-
+      position: absolute;
       content: " an IT Project Manager";
     }
     90% {
